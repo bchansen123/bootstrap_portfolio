@@ -1,0 +1,56 @@
+.background_image {
+    background-image: url("../images/background.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    height: 100vh;
+}
+
+.color {
+    background-color:teal;
+}
+
+.font_size {
+    font-size:24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font_color {
+    color:white;
+}
+
+.alt_color {
+    color: teal;
+}
+
+#copy {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+.bot_border {
+    border-top: solid teal 5px;
+}
+
+.img-grid {
+    position: relative;
+    object-fit: cover;
+    width: 75%;
+    height: auto;
+}
+
+.bg_color {
+    background-color: teal;
+    opacity: 0.75;
+}
+
+.img_title {
+    width: 75%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    color: white;
+}
